@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.address-container, .form-container{
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.address-container{
+    background-image: url(../img/project_bg.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+    color: #FFF;
+    position: relative;
+}
+
+.fade{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.address-content{
+    position: absolute;
+    top: 25vh;
+    left: 35%;
+    text-align: left;
+}
+
+h2{
+    color: #00AD5E;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 40px;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+img{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 25px;
+}
